@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background: #42455a;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background: #42455a;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 0px;
+	color: #b2b1b1;
+	cursor: pointer;
+}
+a {
+  list-style: none;
+	margin: 0 20px;
+	color: #b2b1b1;
+	cursor: pointer;
+    text-decoration: none;
+}
+a:visited {
+  list-style: none;
+	margin: 0 20px;
+	color: #b2b1b1;
+	cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+  list-style: none;
+	margin: 0 20px;
+	color: #b2b1b1;
+	cursor: pointer;
+    text-decoration: none;
+}
+.logo img{
+    width: 70px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+.active{
+    color: #19dafa;
+}
+.dealerships{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.dealerships span{
+    display: block;
+    padding: 8px 22px;
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 20%;
+    left: 5%;
+    position: absolute;
+    color: #fff;
+}
+.apptext h1{
+    font-size: 200%;
+    width: %200;
+    position: relative;
+    margin-left: 40px;
+}
+.apptext p{
+    width: 50%;
+    font-size: 130%;
+    margin: 30px 0 30px 50px;
+    
+    line-height: 60px;
+    color: #919191;
+}
+.mainpage-banner{
+    width: 50%;
+    float: center;
+}
+.mainpage-banner img{
+    width: 150%;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
